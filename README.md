@@ -7,7 +7,7 @@
 ### Create hidden file
 
 ```ts
-import  HideFile  from  './mod.ts';
+import  HideFile  from  'https://deno.land/x/deno_hidefile/mod.ts';
 
 let  x = await  HideFile.createHiddenFile("D://path.json"); // Create hidden file
 
@@ -19,7 +19,7 @@ console.log(x);
 ### Create hidden folder
 
 ```ts
-import  HideFile  from  './mod.ts';
+import  HideFile  from  'https://deno.land/x/deno_hidefile/mod.ts';
 
 let  x = await  HideFile.createHiddenFolder("D://path");
 
@@ -31,7 +31,7 @@ console.log(x);
 ### Hidden an exists folder or file
 
 ```ts
-import  HideFile  from  './mod.ts';
+import  HideFile  from  'https://deno.land/x/deno_hidefile/mod.ts';
 
 let  x = await  HideFile.hiddenExistsFolderOrFile(path);
 
